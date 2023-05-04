@@ -1,0 +1,137 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    background-color: #F4F4F4;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header {
+    background-color: rgba(27, 131, 226, 1);
+    height: 66px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 22px;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+input {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 327px;
+    height: 48px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 327px;
+    display:block;
+    margin-top: 6px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+button {
+    color: #F4F4F4;
+    cursor: pointer;
+    display: block;
+    margin-top: 24px;
+    width: 327px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #1B83E2;
+    border-radius: 25px;
+    border:none;
+    margin-bottom: 36px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 6px;
+}
+
+img {
+    width: 44px;
+    height: 44px;
+}
+
+#top-section {
+    text-align: center;
+    padding: 10px;
+}
+
+#bottom-section {
+    text-align: center;
+    padding: 10px;
+}
+
+#arrow {
+    margin:  15px 0 0 15px;
+    position: relative;
+    left: 130px;
+    height: 49.80859375px;
+    width: 35px;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+.value {
+    color: #1B83E2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+}
